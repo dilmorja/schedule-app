@@ -23,6 +23,9 @@ Por último, podemos ejecutar la aplicación.
 npm start
 ```
 
+## Estructura relacional de datos
+![Schedule app data structure](https://i.imgur.com/VEFs3Cd.png)
+
 ## Requerimientos
 - Lenguaje y runtime: JavaScript. Nodejs.
 - DB: SQL.
