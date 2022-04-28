@@ -4,6 +4,7 @@
   "description": "The first project of backend fundamentals.",
   "main": "app.js",
   "scripts": {
+    "start": "node .",
     "dev": "nodemon -e js,html,css,json",
     "lint": "prettier -w ."
   },
