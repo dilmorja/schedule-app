@@ -1,0 +1,25 @@
+{
+  "name": "schedule-app",
+  "version": "1.0.0",
+  "description": "The first project of backend fundamentals.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon -e js,html,css,json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilmorja/schedule-app.git"
+  },
+  "author": "Daniel M. Jaén <dilmorja@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dilmorja/schedule-app/issues"
+  },
+  "homepage": "https://github.com/dilmorja/schedule-app#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
