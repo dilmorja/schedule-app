@@ -3,6 +3,6 @@ const HomeController = (req, res) => {
     message: "Done.",
     status: 200,
   });
-}
+};
 
 module.exports = HomeController;
