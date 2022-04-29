@@ -26,6 +26,12 @@ npm start
 ## Estructura relacional de datos
 ![Schedule app data structure](https://i.imgur.com/VEFs3Cd.png)
 
+## Rutas
+
+| Method | Route | Root |           Description          |
+|:------:|:-----:|:----:|:------------------------------:|
+| `POST` | `/new`|`/api`| Create a new user or new event |
+
 ## Requerimientos
 - Lenguaje y runtime: JavaScript. Nodejs.
 - DB: SQL.
