@@ -30,6 +30,7 @@ npm start
 
 | Method | Route | Root |           Description          | Finished |
 |:------:|:-----:|:----:|:------------------------------:|:--------:|
+| `GET`  | `/`   | `/`  | Check the API connection       | &#10003; |
 | `POST` | `/new`|`/api`| Create a new user or new event | &#10007; |
 
 ## Requerimientos
