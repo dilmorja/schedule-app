@@ -37,6 +37,7 @@ npm start
 | `PUT`    | `/edit`   | `/:user/events` | Edit a event             | &#10007; |
 | `GET`    | `/`       | `/:user/events` | Show events              | &#10007; |
 | `PUT`    | `/assign` | `/:user/events` | Assign users to the event| &#10007; |
+| `POST`   | `/login`  | `/`             | Enter to the application | &#10007; |
 
 ## Requerimientos
 - Lenguaje y runtime: JavaScript. Nodejs.
