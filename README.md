@@ -28,10 +28,15 @@ npm start
 
 ## Rutas
 
-| Method | Route | Root |           Description          | Finished |
-|:------:|:-----:|:----:|:------------------------------:|:--------:|
-| `GET`  | `/`   | `/`  | Check the API connection       | &#10003; |
-| `POST` | `/new`|`/api`| Create a new user or new event | &#10007; |
+|  Method  |   Route   |      Root       |        Description       | Finished |
+|:--------:|:---------:|:---------------:|:------------------------:|:--------:|
+| `GET`    | `/`       | `/`             | Check the API connection | &#10003; |
+| `POST`   | `/new`    |`/api`           | Create a new user        | &#10007; |
+| `POST`   | `/new`    | `/:user/events` | Create a new event       | &#10007; |
+| `DELETE` | `/delete` | `/:user/events` | Delete a event           | &#10007; |
+| `PUT`    | `/edit`   | `/:user/events` | Edit a event             | &#10007; |
+| `GET`    | `/`       | `/:user/events` | Show events              | &#10007; |
+| `PUT`    | `/assign` | `/:user/events` | Assign users to the event| &#10007; |
 
 ## Requerimientos
 - Lenguaje y runtime: JavaScript. Nodejs.
