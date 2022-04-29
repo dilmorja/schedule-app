@@ -28,9 +28,9 @@ npm start
 
 ## Rutas
 
-| Method | Route | Root |           Description          |
-|:------:|:-----:|:----:|:------------------------------:|
-| `POST` | `/new`|`/api`| Create a new user or new event |
+| Method | Route | Root |           Description          | Finished |
+|:------:|:-----:|:----:|:------------------------------:|:--------:|
+| `POST` | `/new`|`/api`| Create a new user or new event | &#10007; |
 
 ## Requerimientos
 - Lenguaje y runtime: JavaScript. Nodejs.
